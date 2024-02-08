@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#light_mode:hover,#dark_mode:hover{
+  transform:scale(1.2);
+  cursor:pointer;
+}
+
+#dark_mode_label:hover, #light_mode_label:hover{
+  cursor:pointer;
+  
+}
